@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 
 const userData = [
-	{ id: 1, name: "John Doe", email: "john@example.com", role: "Customer", status: "Active" },
-	{ id: 2, name: "Jane Smith", email: "jane@example.com", role: "Admin", status: "Active" },
-	{ id: 3, name: "Bob Johnson", email: "bob@example.com", role: "Customer", status: "Inactive" },
-	{ id: 4, name: "Alice Brown", email: "alice@example.com", role: "Customer", status: "Active" },
-	{ id: 5, name: "Charlie Wilson", email: "charlie@example.com", role: "Moderator", status: "Active" },
+	{ id: 1, name: "Raj Kumar", email: "raj.kumar@example.com", role: "Customer", status: "Active" },
+	{ id: 2, name: "Priya Sharma", email: "priya.sharma@example.com", role: "Admin", status: "Active" },
+	{ id: 3, name: "Arun Patel", email: "arun.patel@example.com", role: "Customer", status: "Inactive" },
+	{ id: 4, name: "Sneha Desai", email: "sneha.desai@example.com", role: "Customer", status: "Active" },
+	{ id: 5, name: "Amit Verma", email: "amit.verma@example.com", role: "Moderator", status: "Active" },
 ];
+
 
 const UsersTable = () => {
 	const [searchTerm, setSearchTerm] = useState("");

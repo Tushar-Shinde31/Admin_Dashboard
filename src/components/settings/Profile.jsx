@@ -6,14 +6,14 @@ const Profile = () => {
 		<SettingSection icon={User} title={"Profile"}>
 			<div className='flex flex-col sm:flex-row items-center mb-6'>
 				<img
-					src="/src/assets/images/batman.jpg"
+					src='https://randomuser.me/api/portraits/men/3.jpg'
 					alt='Profile'
 					className='rounded-full w-20 h-20 object-cover mr-4'
 				/>
 
 				<div>
-					<h3 className='text-lg font-semibold text-gray-100'>Patrick Bateman</h3>
-					<p className='text-gray-400'>patrickbatmaen@example.com</p>
+					<h3 className='text-lg font-semibold text-gray-100'>Tushar Shinde</h3>
+					<p className='text-gray-400'>urtusharshinde@gmail.com</p>
 				</div>
 			</div>
 
